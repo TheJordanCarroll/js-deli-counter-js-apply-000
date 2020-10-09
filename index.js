@@ -2,9 +2,9 @@
 //   katzDeliLine.push(person);
 //   return `Welcome, ${person}. You are number ${katzDeliLine.length} in line.`
 // }
-var 
+var number = 0;
+ 
 function takeANumber (katzDeliLine) {
-  var number = 0;
   number += 1
   katzDeliLine.push(number);
   return `Welcome. You are number ${number} in line.`;
