@@ -2,6 +2,7 @@
 //   katzDeliLine.push(person);
 //   return `Welcome, ${person}. You are number ${katzDeliLine.length} in line.`
 // }
+var katzDeliLine = []
 var number = 0;
  
 function takeANumber (katzDeliLine) {
@@ -10,7 +11,11 @@ function takeANumber (katzDeliLine) {
   console.log(katzDeliLine)
   return `Welcome. You are number ${number} in line.`;
 }
-return number
+takeANumber (katzDeliLine)
+takeANumber (katzDeliLine)
+takeANumber (katzDeliLine)
+takeANumber (katzDeliLine)
+takeANumber (katzDeliLine)
 
 function nowServing (katzDeliLine) {
   let i = 0
