@@ -4,7 +4,7 @@
 // }
 
 function takeANumber (katzDeliLine) {
-  let var = 
+  var = 
   return `Welcome. You are number ${katzDeliLine} in line.`
 }
 
