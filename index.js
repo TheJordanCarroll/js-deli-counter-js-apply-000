@@ -4,9 +4,10 @@
 // }
 
 function takeANumber (katzDeliLine) {
-  var number = 0 ;
-  katzDeliLine.push(number)
-  return `Welcome. You are number ${number} in line.`
+  var number = 0;
+  number += 1
+  katzDeliLine.push(number);
+  return `Welcome. You are number ${number} in line.`;
 }
 
 function nowServing (katzDeliLine) {
