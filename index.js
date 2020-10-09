@@ -10,7 +10,7 @@ function takeANumber (katzDeliLine) {
   console.log(katzDeliLine)
   return `Welcome. You are number ${number} in line.`;
 }
-
+return number
 
 function nowServing (katzDeliLine) {
   let i = 0
